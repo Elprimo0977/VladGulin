@@ -1,0 +1,18 @@
+title = 'ТЕМНЫЙ КВАРТАЛ'
+frame = '=' * 20
+print(frame)
+print('   ' + title + '   ')
+print("Как зовут героя?")
+hero_name = input()
+print(f'Добро пожловать, {hero_name}!')
+print("Ты зашел в темный квартал. Здесь темно и тихо.")
+print()
+print("Что делаешь?")
+print("1 - осмотреться")
+print("2 - идти вперёд")
+print("3 - отдохнуть")
+print("4 - прислушаться")
+print("5 - включить фонарь")
+print()
+choice = input()
+print(frame)
